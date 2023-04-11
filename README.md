@@ -5,3 +5,10 @@
 <p align="center">
 <img src="https://i.imgur.com/6Y1wHG0.jpg" height="85%" width="85%" alt="Reference Architecture"/>
 </p>
+
+
+
+<p align="center">
+<img src="https://i.imgur.com/DKIzjt6.jpg" height="85%" width="85%" alt="Security Group Architecture"/>
+</p>
+
