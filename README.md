@@ -17,10 +17,13 @@ In this lab you will build a three-tiered network <b>VPC</b> using this referenc
 <h4>Create Internet Gateway</h4>
 -Attach IG to VPC
 <h4>Create Public Subnets in both availability zones</h4>
--
+-Enable Auto Assign IP for both subnets
+<h4>Create Public Route Table</h4>
+-Add route to Internet from IG
+-Associate to Public Subnets
+<h4>Create four Private Subnets</h4>
+-Two App Subnets and Two Data Subnets
 <h4></h4>
-<h4></h4>
-
 
 <p align="center">
 <img src="https://i.imgur.com/KKjpbGH.jpg" height="85%" width="85%" alt="NAT Gateway Architecture"/>
