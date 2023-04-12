@@ -86,14 +86,22 @@ In this lab you will build a three-tiered network <b>VPC</b> using this referenc
 <img src="https://i.imgur.com/PCits2k.png" height="85%" width="85%" alt="Bastion Host Architecture"/>
 </p>
 <h4>Create Bastion Host in Public Subnet</h4>
--add SSH security group
+-Add SSH security group
 <h4>Download paegant.exe from Putty download page</h4>
--add Private Key Pair<br>
--allow agent forwarding in Putty configuration<br>
--ssh into Webserver private EC2 instance through public IP of Bastion Host instance
+-Add Private Key Pair<br>
+-Allow agent forwarding in Putty configuration<br>
 <h4>Create HTTPS Listener for ALB</h4>
--redirect traffic to HTTPS<br>
--SSH into Webserver into Private App Subnet to modifty wp-config file using 
+-Redirect traffic to HTTPS<br>
+-SSH into Private Data Subnet Webserver EC2 instance through public IP of Bastion Host instance to modify wp-config file using "HTTPS_Listner_ALB" file<br>
+-To access PHP nano text editor wp-config file type "sudo su" "nano /var/www/html/wp-config.php"
+<p align="center">
+<img src="https://i.imgur.com/gsXtY61.png" height="85%" width="85%" alt="ASG Architecture"/>
+</p>
+<h4>Create Auto Scaling Group</h4>
+-Terminate EC2 Webservers<br>
+-Create Launch Template
+-Include ""file in User Data section
+
 
 <br>
 <h2>Resources Used</h2>
