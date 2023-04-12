@@ -58,8 +58,17 @@ In this lab you will build a three-tiered network <b>VPC</b> using this referenc
 <h4>Create Key Pair in EC2</h4>
 -Download Private Key to your computer
 <h4>Download Putty</h4>
-<h4>Launch EC2 instance</h4>
+<h4>Launch EC2 instance for Wordpress Setup</h4>
 <h4>SSH into Setup Server using Putty</h4>
 -input hostname into Putty configuration<br>
 -Connnection->Auth->Private Key File for Authentication
-<h4>Use </h4>
+<h4>Use "install_wordpress_putty" file to install Wordpress using Putty</h4>
+-Before fourth command, update EFS mount information<br>
+-Update 'DB_NAME', 'DB_USER', 'DB_PASSWORD', 'DB_HOST' in PHP nano text editor<br>
+-Enter Wordpress login information
+<p align="center">
+<img src="https://i.imgur.com/O6D87h6.png" height="85%" width="85%" alt="EFS Architecture"/>
+</p>
+<h4>Create Application Load Balancer</h4>
+-Route to both EC2 instance in Private App Subnets 
+<h4></h4>
