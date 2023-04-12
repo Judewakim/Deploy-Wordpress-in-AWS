@@ -2,7 +2,7 @@
 <p align="center">
 <img src="https://i.imgur.com/vHDg7sM.png" height="25%" width="25%" alt="AWS Logo"/>
 </p>
-<b>This lab is on how to deploy a Wordpress website in Amazon Web Services. This lab utilize EC2, RDS, VPC, Route 53, and ASG. Programs such as Putty and AWS CLI are used.</b>
+<b>This lab is on how to deploy a Wordpress website in Amazon Web Services using a Windows computer. This lab utilize EC2, RDS, VPC, Route 53, and ASG. Programs such as Putty and AWS CLI are used.</b>
 <h2>Overview</h2>
 <br>
 <p align="center">
@@ -55,5 +55,7 @@ In this lab you will build a three-tiered network <b>VPC</b> using this referenc
 </p>
 <h4>Create EFS</h4>
 -Place Mount Targets in each Private Data Subnet 
-<h4></h4>
-
+<h4>Create Key Pair in EC2</h4>
+-Download Private Key to your computer
+<h4>Download Putty</h4>
+<h4>Launch EC2 instance</h4>
