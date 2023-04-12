@@ -37,11 +37,23 @@ In this lab you will build a three-tiered network <b>VPC</b> using this referenc
 <p align="center">
 <img src="https://i.imgur.com/DKIzjt6.jpg" height="85%" width="85%" alt="Security Group Architecture"/>
 </p>
-<br>
-
+<h4>Create Security Groups</h4>
+-Application Load Balancer Security<br>
+-SSH Security<br>
+-Webserver Security<br>
+-Database Security<br>
+-EFS Security<br>
 <br>
 <p align="center">
 <img src="https://i.imgur.com/tl72KKY.jpg" height="85%" width="85%" alt="RDS Architecture"/>
 </p>
-<br>
+<h4>Create RDS in Private Data Subnets</h4>
+-Create Database Subnet Group<br>
+-Create RDS
+<p align="center">
+<img src="https://i.imgur.com/KeKEB4G.png" height="85%" width="85%" alt="EFS Architecture"/>
+</p>
+<h4>Create EFS</h4>
+-Place Mount Targets in each Private Data Subnet 
+<h4></h4>
 
