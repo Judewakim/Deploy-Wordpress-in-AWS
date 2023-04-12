@@ -99,9 +99,10 @@ In this lab you will build a three-tiered network <b>VPC</b> using this referenc
 </p>
 <h4>Create Auto Scaling Group</h4>
 -Terminate EC2 Webservers<br>
--Create Launch Template
--Include ""file in User Data section
-
+-Create Launch Template<br>
+-Include "create_ALB" file in User Data section<br>
+-Create ASG
+<h4>Clean Up Everything to Avoid Charges</h4>
 
 <br>
 <h2>Resources Used</h2>
