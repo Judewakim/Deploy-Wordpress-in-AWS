@@ -70,6 +70,32 @@ In this lab you will build a three-tiered network <b>VPC</b> using this referenc
 <img src="https://i.imgur.com/O6D87h6.png" height="85%" width="85%" alt="EFS Architecture"/>
 </p>
 <h4>Create Application Load Balancer</h4>
--In User Data section input 
--Route to both EC2 instance in Private App Subnets
-<h4></h4>
+-In User Data section, paste "create_ALB" file as text with updated mount information<br>
+-Route to both EC2 instance in Private App Subnets<br>
+-Create Target Group<br>
+-Create ALB<br>
+-Access website using DNS name on ALB and update URL in admin settings of Wordpress
+<h4>Register Domain Name using Route 53</h4>
+-Payment may be required
+<h4>Create DNS Domain Name Record</h4>
+-Access the website using the domain name<br>
+-Update Domain Name settings in Wordpress admin settings
+<h4>Register SSL certificate</h4>
+-Create record in Route 53
+<p align="center">
+<img src="https://i.imgur.com/PCits2k.png" height="85%" width="85%" alt="Bastion Host Architecture"/>
+</p>
+<h4>Create Bastion Host in Public Subnet</h4>
+-add SSH security group
+<h4>Download paegant.exe from Putty download page</h4>
+-add Private Key Pair<br>
+-allow agent forwarding in Putty configuration<br>
+-ssh into Webserver private EC2 instance through public IP of Bastion Host instance
+<h4>Create HTTPS Listener for ALB</h4>
+-redirect traffic to HTTPS<br>
+-SSH into Webserver into Private App Subnet to modifty wp-config file using 
+
+<br>
+<h2>Resources Used</h2>
+YouTube Channel: [TechWithLucy](https://www.youtube.com/watch?v=5RVT3BN9Iws&t=193s&ab_channel=TechWithLucy) <br>
+AOSNote Course: [Deploy a WordPress Website on AWS](https://www.aosnote.com/offers/xFzqby9z/checkout)
