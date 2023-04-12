@@ -70,5 +70,6 @@ In this lab you will build a three-tiered network <b>VPC</b> using this referenc
 <img src="https://i.imgur.com/O6D87h6.png" height="85%" width="85%" alt="EFS Architecture"/>
 </p>
 <h4>Create Application Load Balancer</h4>
--Route to both EC2 instance in Private App Subnets 
+-In User Data section input 
+-Route to both EC2 instance in Private App Subnets
 <h4></h4>
