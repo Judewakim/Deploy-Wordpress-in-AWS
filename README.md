@@ -59,3 +59,7 @@ In this lab you will build a three-tiered network <b>VPC</b> using this referenc
 -Download Private Key to your computer
 <h4>Download Putty</h4>
 <h4>Launch EC2 instance</h4>
+<h4>SSH into Setup Server using Putty</h4>
+-input hostname into Putty configuration<br>
+-Connnection->Auth->Private Key File for Authentication
+<h4>Use </h4>
