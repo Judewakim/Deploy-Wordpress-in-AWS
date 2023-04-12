@@ -19,22 +19,29 @@ In this lab you will build a three-tiered network <b>VPC</b> using this referenc
 <h4>Create Public Subnets in both availability zones</h4>
 -Enable Auto Assign IP for both subnets
 <h4>Create Public Route Table</h4>
--Add route to Internet from IG
+-Add route to Internet from IG<br>
 -Associate to Public Subnets
 <h4>Create four Private Subnets</h4>
 -Two App Subnets and Two Data Subnets
-<h4></h4>
-
+<br>
+<br>
 <p align="center">
 <img src="https://i.imgur.com/KKjpbGH.jpg" height="85%" width="85%" alt="NAT Gateway Architecture"/>
 </p>
-
+<h4>Create NAT Gateways in Public Subnets of each availability zone</h4>
+<h4>Create Route Private Route Tables for each gateway</h4>
+-Connect Private Route Tables to NAT Gateways<br>
+-Connect each Route Table to Private Subnets
+<br>
+<br>
 <p align="center">
 <img src="https://i.imgur.com/DKIzjt6.jpg" height="85%" width="85%" alt="Security Group Architecture"/>
 </p>
+<br>
 
-
+<br>
 <p align="center">
 <img src="https://i.imgur.com/tl72KKY.jpg" height="85%" width="85%" alt="RDS Architecture"/>
 </p>
+<br>
 
