@@ -106,7 +106,6 @@ In this lab you will build a three-tiered network <b>VPC</b> using this referenc
 
 <br>
 <h2>Resources Used</h2>
-- <b>YouTube:</b> https://www.youtube.com/watch?v=MHsI8hJmggI&list=PLqBeiU46hx1H--SNfTrohTOWeqkK-M2Y0&index=1&ab_channel=JoshMadakor-Tech%2CEducation%2CCareer 
 
 - <b>YouTube Channel:</b> [TechWithLucy](https://www.youtube.com/watch?v=5RVT3BN9Iws&t=193s&ab_channel=TechWithLucy) <br>
 - <b>AOSNote Course:</b> [Deploy a WordPress Website on AWS](https://www.aosnote.com/offers/xFzqby9z/checkout)
